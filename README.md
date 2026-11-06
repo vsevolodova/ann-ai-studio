@@ -4,6 +4,14 @@
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/vsevolodova/ann-ai-studio)
 
+## Скриншоты
+
+| Главный экран | Услуги |
+|:---:|:---:|
+| [![Главный экран](images/hero1.png)](images/hero1.png) | [![Услуги](images/landing.png)](images/landing.png) |
+| **Кейсы** | **Контакты** |
+| [![Кейсы](images/case.png)](images/case.png) | [![Контакты](images/contact.png)](images/contact.png) |
+
 ## Что внутри
 
 - Flask-приложение с одним лендингом и модальными окнами кейсов.
@@ -34,6 +42,7 @@ content.json    — кейсы и контактные данные
 index.html      — разметка страницы
 style.css       — стили, анимации и адаптивность
 script.js       — поиск, фильтры, модальные окна и анимации
+images/         — скриншоты для README
 render.yaml     — конфигурация деплоя на Render
 requirements.txt
 Procfile
